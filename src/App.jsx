@@ -22,21 +22,21 @@ function App() {
 
   const geNnoImage = () => {
     if (noCount === 0) {
-      return <img src='/src/assets/Hermosa.jpg' className="w-2/3 m-auto rounded-2xl"/>
+      return <img src='src/assets/Hermosa.jpg' className="w-2/3 m-auto rounded-2xl"/>
     }
     if (noCount < phrases.length) {
-      return <img className="w-1/3 m-auto rounded-2xl" src='/src/assets/Gato.jpeg'/>
+      return <img className="w-1/3 m-auto rounded-2xl" src='src/assets/Gato.jpeg'/>
     }
-    return <img className="w-2/3 m-auto rounded-2xl" src='/src/assets/Traka.jpeg'/>
+    return <img className="w-2/3 m-auto rounded-2xl" src='src/assets/Traka.jpeg'/>
   };
   return (
-    <div className="bg-cover bg" style={{backgroundImage: 'url(/src/assets/Background.jpg)'}}>
+    <div className="bg-cover bg" style={{backgroundImage: 'url(src/assets/Background.jpg)'}}>
     {yesPressed ? 
       <>
         <h1 className="py-6">Te amo</h1>
         <h2 className="mb-8">Qué tal eh, sabía que dirías que sí</h2>
-        <img className="w-2/3 m-auto rounded-2xl" src='/src/assets/Yes.jpeg'/>
-        <img className="rounded-2xl w-1/3 m-auto mt-10" src='/src/assets/ILoveYou.jpeg'/>
+        <img className="w-2/3 m-auto rounded-2xl" src='src/assets/Yes.jpeg'/>
+        <img className="rounded-2xl w-1/3 m-auto mt-10" src='src/assets/ILoveYou.jpeg'/>
       </> 
       :
       <>
