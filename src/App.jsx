@@ -34,15 +34,15 @@ function App() {
     <div className="bg-cover bg" style={{backgroundImage: `url(${assets.Background})`}}>
     {yesPressed ? 
       <>
-        <h1 className="py-6">Te amo</h1>
-        <h2 className="mb-8">Qué tal eh, sabía que dirías que sí</h2>
+        <h1 className="py-2">Te amo</h1>
+        <h2 className="mb-2">Qué tal eh, sabía que dirías que sí</h2>
         <img className="w-2/3 m-auto rounded-2xl" src={assets.Yes}/>
-        <img className="rounded-2xl w-1/3 m-auto mt-10" src={assets.ILoveYou}/>
+        <img className="rounded-2xl w-1/3 m-auto mt-2" src={assets.ILoveYou}/>
       </> 
       :
       <>
-        <h1 className="py-6">Hola princesa</h1>
-        <h2 className="mb-16">Will you be my Valentine?</h2>
+        <h1 className="py-2">Hola princesa</h1>
+        <h2 className="mb-2">Will you be my Valentine?</h2>
         {geNnoImage()}
         <div className="flex justify-center mt-4 space-x-4 px-2">
           <button
